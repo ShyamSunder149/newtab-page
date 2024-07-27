@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "New Tab Widget",
+  "version": "1.0",
+  "description": "A custom widget for the new tab page.",
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "permissions": [],
+  "icons": {}
+}

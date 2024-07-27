@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat");
+
+Body {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  background: rgba(0, 0, 0, 0.5)
+    url("https://images8.alphacoders.com/111/thumb-1920-1115753.jpg");
+  background-position: center;
+  background-blend-mode: darken;
+}
+
+#innerBody {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+}
+
+#clock {
+  position: absolute;
+  font-size: 3em;
+  top: 2rem;
+  right: 2rem;
+}
+
+#widget {
+  position: absolute;
+  font-size: 2em;
+  top: 3rem;
+  right: 2rem;
+}
+
+h1 {
+  font-size: 5em;
+}
+
+h4 {
+  font-size: 2em;
+}
+
+#anime,
+#owner {
+  font-size: 2em;
+}
+
+.animediv {
+  padding: 100px;
+}
